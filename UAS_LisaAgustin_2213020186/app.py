@@ -15,9 +15,9 @@ def go_to_sidebar():
     st.session_state.page = "sidebar"
 
 # Load models
-fruit_model_svm = pd.read_pickle('SVM_fruit.pkl')
-fruit_model_rfc = pd.read_pickle('RFC_fruit.pkl')
-wine_model_kmeans = pd.read_pickle('kmean_wine.pkl')
+fruit_model_svm = pd.read_pickle('UAS_LisaAgustin_2213020186/SVM_fruit.pkl')
+fruit_model_rfc = pd.read_pickle('UAS_LisaAgustin_2213020186/RFC_fruit.pkl')
+wine_model_kmeans = pd.read_pickle('UAS_LisaAgustin_2213020186/kmean_wine.pkl')
 
 st.title("Prediksi Machine Learning")
 st.write("**Prediksi Machine Learning Menggunakan Agortima SVM, Random Forest dan K-Means.**")
